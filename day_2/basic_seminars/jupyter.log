@@ -1,0 +1,46 @@
+[W 21:26:24.322 NotebookApp] ipywidgets package not installed.  Widgets are unavailable.
+[W 21:26:24.327 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 21:26:24.327 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 21:26:24.337 NotebookApp] Serving notebooks from local directory: /notebooks
+[I 21:26:24.337 NotebookApp] 0 active kernels 
+[I 21:26:24.337 NotebookApp] The IPython Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 21:26:24.337 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:26:39.488 NotebookApp] ipywidgets package not installed.  Widgets are unavailable.
+[W 21:26:39.493 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 21:26:39.494 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 21:26:39.498 NotebookApp] Serving notebooks from local directory: /notebooks
+[I 21:26:39.498 NotebookApp] 0 active kernels 
+[I 21:26:39.498 NotebookApp] The IPython Notebook is running at: http://[all ip addresses on your system]:8888/
+[I 21:26:39.498 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:26:44.029 NotebookApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+[W 21:26:44.030 NotebookApp] Notebook 1.6 Challenging exercise.ipynb is not trusted
+[W 21:26:44.045 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20160620212639 (172.17.0.1) 12.37ms referer=http://127.0.0.1:8888/notebooks/1.6%20Challenging%20exercise.ipynb
+[I 21:26:44.160 NotebookApp] Kernel started: 5749f7d7-19ed-43a9-99be-77cb4f78175f
+[I 21:28:44.143 NotebookApp] Saving file at /1.6 Challenging exercise.ipynb
+[W 21:29:15.436 NotebookApp] Notebook 1.5 Generative models - seminar.ipynb is not trusted
+[I 21:29:15.975 NotebookApp] Kernel started: 9d96722b-78c4-4f1b-bd4f-c28739eec71b
+[W 21:29:16.271 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20160620212639 (172.17.0.1) 2.67ms referer=http://127.0.0.1:8888/notebooks/1.5%20Generative%20models%20-%20seminar.ipynb
+[W 21:29:17.369 NotebookApp] Notebook 1.5 Generative models - exercise.ipynb is not trusted
+[I 21:29:17.483 NotebookApp] Kernel started: 73e76b16-8e04-49e9-a80a-748652188301
+[W 21:29:18.230 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20160620212639 (172.17.0.1) 2.40ms referer=http://127.0.0.1:8888/notebooks/1.5%20Generative%20models%20-%20exercise.ipynb
+[I 21:30:44.242 NotebookApp] Saving file at /1.6 Challenging exercise.ipynb
+[I 21:30:52.412 NotebookApp] Kernel shutdown: 73e76b16-8e04-49e9-a80a-748652188301
+[I 21:32:44.145 NotebookApp] Saving file at /2.3 Challenging exercise on generative models.ipynb
+[I 21:34:44.149 NotebookApp] Saving file at /2.3 Challenging exercise on generative models.ipynb
+[I 21:38:12.993 NotebookApp] Kernel shutdown: 5749f7d7-19ed-43a9-99be-77cb4f78175f
+[I 21:38:14.967 NotebookApp] Saving file at /2.3 Challenging exercise on generative models.ipynb
+[W 21:38:16.993 NotebookApp] Session not found: session_id=u'9c6a996a-9294-4db4-b2b9-5c0f9d103e59'
+[W 21:38:16.993 NotebookApp] 404 DELETE /api/sessions/9c6a996a-9294-4db4-b2b9-5c0f9d103e59 (172.17.0.1) 0.97ms referer=http://127.0.0.1:8888/notebooks/2.3%20Challenging%20exercise%20on%20generative%20models.ipynb
+[I 21:38:24.442 NotebookApp] Kernel shutdown: 9d96722b-78c4-4f1b-bd4f-c28739eec71b
+[W 21:38:25.160 NotebookApp] 404 GET /notebooks/3.%20Ensemble%20methods%20and%20hyperparameters%20optimzation%20-%20solutions.ipynb (172.17.0.1): No such file or directory: 3. Ensemble methods and hyperparameters optimzation - solutions.ipynb
+[W 21:38:25.162 NotebookApp] 404 GET /notebooks/3.%20Ensemble%20methods%20and%20hyperparameters%20optimzation%20-%20solutions.ipynb (172.17.0.1) 2.31ms referer=http://127.0.0.1:8888/tree
+[W 21:38:26.185 NotebookApp] 404 GET /notebooks/3.2%20%20Hyperparameters%20optimzation%20-%20seminar.ipynb (172.17.0.1): No such file or directory: 3.2  Hyperparameters optimzation - seminar.ipynb
+[W 21:38:26.187 NotebookApp] 404 GET /notebooks/3.2%20%20Hyperparameters%20optimzation%20-%20seminar.ipynb (172.17.0.1) 2.31ms referer=http://127.0.0.1:8888/tree
+[I 21:38:43.228 NotebookApp] Creating new notebook in 
+[W 21:38:43.709 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20160620212639 (172.17.0.1) 2.33ms referer=http://127.0.0.1:8888/notebooks/Untitled.ipynb?kernel_name=python2
+[I 21:38:43.815 NotebookApp] Kernel started: b28c1155-b149-450b-986b-91bdb7116118
+[I 21:44:43.812 NotebookApp] Saving file at /2.4 sklearn, model evaluation - seminar & exercises.ipynb
+[I 21:46:43.808 NotebookApp] Saving file at /2.4 sklearn, model evaluation - seminar & exercises.ipynb
+[I 21:48:43.807 NotebookApp] Saving file at /2.4 sklearn, model evaluation - seminar & exercises.ipynb
+[I 21:51:49.535 NotebookApp] Saving file at /2.4 sklearn, model evaluation - seminar & exercises.ipynb
+[I 21:52:02.214 NotebookApp] Saving file at /2.4 sklearn, model evaluation - seminar & exercises.ipynb
