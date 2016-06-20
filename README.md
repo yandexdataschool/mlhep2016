@@ -1,6 +1,6 @@
 # MLHEP 2016
 
-Materials of Machine Learning in High Energy Physics, 2016.
+Materials of Machine Learning in High Energy Physics summer school, 2016.
 
 Slides and seminar materials are stored at this repository.
 
