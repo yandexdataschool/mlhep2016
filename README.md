@@ -4,8 +4,9 @@ Materials of Machine Learning in High Energy Physics summer school, 2016.
 
 Slides and seminar materials are stored at this repository.
 
+<!--
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/yandexdataschool/mlhep2016)
-
+-->
 
 ## Links
 
