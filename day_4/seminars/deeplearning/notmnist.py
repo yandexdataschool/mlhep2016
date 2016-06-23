@@ -8,7 +8,7 @@ import tarfile
 import urllib
 
 import numpy as np
-from scipy.misc import imread
+#from scipy.misc import imread
 
 url = 'http://yaroslavvb.com/upload/notMNIST/'
 
@@ -92,25 +92,26 @@ from sklearn.cross_validation import train_test_split
 def load_dataset(test_size=0.2):
     if not os.path.exists('data.npz'):
         print "Downloading and preprocessing dataset. This may take a few minutes"
+	os.system('wget https://2016.mlhep.yandex.net/data/data.npz')
 
-        train_filename = maybe_download('notMNIST_large.tar.gz', 247336696)
-        test_filename = maybe_download('notMNIST_small.tar.gz', 8458043)
-        train_folders = extract(train_filename)
-        test_folders = extract(test_filename)
+        #train_filename = maybe_download('notMNIST_large.tar.gz', 247336696)
+        #test_filename = maybe_download('notMNIST_small.tar.gz', 8458043)
+        #train_folders = extract(train_filename)
+        #test_folders = extract(test_filename)
 
-        X, y = load(train_folders, 450000, 550000)
-        X = X[:, None, :, :]
-        np.random.seed(1337)
-        X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=test_size)
-        X_test, y_test = load(test_folders, 18000, 20000)
-        X_test = X_test[:, None, :, :]
+        #X, y = load(train_folders, 450000, 550000)
+        #X = X[:, None, :, :]
+        #np.random.seed(1337)
+        #X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=test_size)
+        #X_test, y_test = load(test_folders, 18000, 20000)
+        #X_test = X_test[:, None, :, :]
 
-        with open('data.npz', 'w') as fout:
-            np.savez_compressed('data.npz', *[X_train, y_train, X_val, y_val, X_test, y_test])
+        #with open('data.npz', 'w') as fout:
+        #    np.savez_compressed('data.npz', *[X_train, y_train, X_val, y_val, X_test, y_test])
 
     else:
         print 'using stored data.npz'
-        sys.stdout.flush()
-        [X_train, y_train, X_val, y_val, X_test, y_test] = map(np.load('data.npz').__getitem__,
-                                                               map("arr_{}".format, range(6)))
+    sys.stdout.flush()
+    [X_train, y_train, X_val, y_val, X_test, y_test] = map(np.load('data.npz').__getitem__,
+                                                           map("arr_{}".format, range(6)))
     return X_train, y_train, X_val, y_val, X_test, y_test
